@@ -47,6 +47,8 @@ The script evaluates accuracy using a comprehensive suite of metrics:
 - MAPE	Mean Absolute % Error
 - Bias	Mean Error
 
+6. Automated export of Forecast vs Year-over-Year Actuals Graph & of Performance Metrics to excel, showing with conditional formatting whether model is good (or not) to use.
+   
 <h2>Tools used in this project:</h2>
 
 - <b>Python</b> 
