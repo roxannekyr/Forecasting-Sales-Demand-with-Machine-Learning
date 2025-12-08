@@ -1,8 +1,8 @@
-<h1>Top-Down Volumes Demand Planning Forecasting ML Model</h1>
+<h1>Top Level Demand Planning Forecasting ML Model</h1>
 
 <h2>Description</h2>
 
-This project implements a robust Time Series Top-Down Volumes Demand Planning Forecasting pipeline using Machine Learning (Random Forest Regressor) to predict future total demand volumes (not skus level).
+This project implements a robust Time Series Top Level Demand Planning Forecastingpipeline using Machine Learning (Random Forest Regressor) to predict future total demand volumes (not at skus level but at a total aggregation monthly level).
 
 Unlike standard statistical models (ARIMA/ETS), this engine treats forecasting as a supervised regression problem, utilizing advanced feature engineering (Lags, Rolling Windows, Seasonality) to capture complex patterns in sales data. It employs a Recursive Multi-Step Forecasting strategy to predict 6 months into the future.
 
@@ -14,7 +14,7 @@ Key Features:
 - Rolling Statistics: 3-Month Rolling Mean (Smoothing/Trend detection).
 - Recursive Forecasting: Uses a "feedback loop" where the model's prediction for Month t becomes an input feature for Month t+1.
 - Advanced Evaluation Metrics: Calculates industry-standard metrics for evaluation.
-- Business-Ready Reporting: Exports a formatted Excel dashboard with:Raw historical and forecast data.Conditional formatting for performance metrics.
+- Business-Ready Reporting: Exports a formatted Excel dashboard with raw historical and forecast data & conditional formatting for performance metrics.
 - Embedded Year-Over-Year seasonality plots.
 
 
